@@ -1,0 +1,177 @@
+:root { --main-color: #0a5e80;
+    --primary-color: #660000;
+    --dark-color: #000;
+    --led-color: #fffdd0;
+    --too-color: #000;
+
+}
+
+#topnav {
+    background-color: var(--primary-color)!important;
+}
+
+/* navbar */
+.navbar{
+    background-color: var(--led-color)!important;
+}
+
+.navbar .navbar-brand .brand-text, .navbar .collapse .nav-link{
+    text-decoration:solid ;
+    color: var(--primary-color);
+}
+.navbar .container img{
+    width: 15%; height: 8vh;
+}
+
+.navbar button{
+    background-color: var(--primary-color)!important;
+
+}
+
+/* slider */
+#slider .carousel-inner{
+
+}
+.carousel-inner{
+    width: 100%; height: 70vh;
+}
+
+.carousel-inner .carousel-item img{ 
+    height: 70vh;
+    clip-path: polygon(0 0, 39% 0, 51% 100%, 0% 100%);
+ /* position: absolute; */
+}
+
+/* #slider .carousel-inner .bg-dark{  
+    background-color: var(--main-color);
+        width: 100%; height: 70vh;
+        position: relative;
+        opacity: .1rem; 
+    }*/
+    
+
+
+/* #slider .carousel-inner .carousel-caption{  
+     background-color: var(--main-color);
+    color: var(--dark-color); 
+    margin: 50%;
+    height: 65%;
+} */
+
+
+/* sandy */
+#sandy .container{}
+
+#sandy .container .card .card-img img{
+    width: auto;
+}
+
+
+/* entrance */
+
+#entrance .container{ 
+    background-color: var(--primary-color)!important;
+
+    height: 8vh;
+
+}
+
+/* college */
+#college .container{
+    width: 70%;
+}
+#college .container .content{
+ 
+}
+
+#college .place .bg-light{
+    background-color: var(--led-color)!important;
+    height: 20vh;
+}
+
+#college .explore .text-center{
+    width: 50%;
+    margin: auto;
+}
+
+/* second segment */
+
+#segment .img-container .card{
+    height: 50vh;
+    position: relative;
+    border-radius: .6rem;
+    overflow-y:hidden;
+}
+
+#segment .img-container .card img{
+    height: 100%;
+    border-radius: .6rem;
+
+}
+
+#segment .img-container .card .bg-dark{
+   background: var(--led-color);
+   width: 100%; 
+   height: 100%;
+    position: absolute;
+    opacity: .3;
+    top: 0%;
+}
+
+#segment .img-container .card .img-content{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+     top: 80%;
+ }
+ #segment .img-container .card:hover .img-content{
+    top: 40%;
+    transition: all 2s ease-in-out;
+ }
+
+ #segment .img-container .card .bg-dark:hover{
+    opacity: .7rem;
+ }
+
+/* .explore .img-container{ 
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    
+}*/
+
+
+.explore .img-container .col-1 .card .card-content .p2{
+  display: none;
+
+}
+
+ 
+.explore  .img-container .col-1 .card:hover .card-content{
+    top: 40%;
+    transition: all 2s ease-in-out;
+}
+.explore  .img-container .col-1 .card:hover .p2{
+    display:block;
+    margin: 0 auto;
+}
+
+.explore  .img-container .col-1 .card .bg-dark:hover{
+    opacity: .7;    
+}
+
+.li, .link { 
+    text-align: center;
+    margin: 3rem 0;
+
+}
+ .li a, .link a{
+        color: #6c6969;}
+
+
+.bg{
+    background: #aba983!important;
+    height: 20vh;
+    padding: 2rem 0 0 0;
+
+}        
